@@ -1,0 +1,295 @@
+/********* BASIC STYLES ********/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body a{
+	font-size: 12px;
+}
+
+a li {
+	list-style: none;
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Marvel', sans-serif;
+	color: white;
+}
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+h4 {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: white;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#wrapper {
+	padding: 0;
+}
+
+/********* HEADER ********/
+
+#header {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ), url('img/image-home1.jpg');
+
+}
+
+#top-left-logo {
+
+}
+
+#nav {
+	display: inline-block;
+}
+
+#circle {
+	float: left;
+}
+
+#nav li {
+	float: left;
+	list-style: none;
+	color: white;
+	padding: 10px;
+	width: 15%;
+	text-align: center;
+}
+
+#nav li:hover a{
+	background: rgba(255, 255, 255, 0);
+	color: #666;
+}
+
+#nav li:hover {
+	background: rgba(255, 255, 255, 0.55);
+	color: #666;
+}
+
+/********* BANNER ********/
+
+#banner {
+	clear: both;
+	text-align: center;
+	margin: 40px 40px 80px 40px;
+	padding: 30px 0;
+	position: center;
+
+}
+
+/********* GALLERY ********/
+
+.gallery {
+	padding-right: 20px;
+	width: 100%;
+	max-width: 1280px; 
+	min-width: 320px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.gallery div {
+	height: 120px;
+	width: 30.8%;
+}
+
+.box {
+	float: left;
+	margin-right: 3.8%;
+}
+
+.last {
+	float: left;
+	margin-right: 0;
+}
+
+#col1 {
+	color: #666;
+	background: #e8eded url(img/apostrophe.png) top left no-repeat;
+}
+
+ #col2 {
+ 	color: #666;
+	background: #e8eded url(img/junto.jpg) top left no-repeat;
+}
+
+#col3 {
+	color: #666;
+	background: #e8eded url(img/window.jpg) top left no-repeat;
+}
+
+/********* CONNECT *******/
+#connect {
+	border-bottom: 10px;
+}
+
+#connect h2 {
+	color: #666;
+	font-size: 1em;
+}
+
+#connect h3{
+	color: #666;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#connect a {
+	color: #e59c19;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+#connect p {
+	color: #666;
+	font-family: 'Marvel', sans-serif;
+}
+
+.left {
+	float: left;
+	margin-left: 25px;
+	padding: 20px;
+}
+
+.right {
+	float: right;
+	padding: 20px;
+	margin-right: 25px;
+}
+
+/********* FOOTER ********/
+
+#footer-top {
+	background: url(img/punk-map.jpg)  #e59c19;
+	overflow:auto;
+	max-height: 21% ;
+	clear: both;
+}
+
+.footer-top-left {
+	width: 29%;
+	margin: 0 1.5%;
+	float: left;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.footer-top-left li{
+	list-style: none;
+}
+
+.footer-top-center {
+	width: 29%;
+	margin: 0 1.5%;
+	float: left;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.footer-top-right {
+	width: 29%;
+	margin: 0 1.5%;
+	float: left;
+	padding: 30px 0;
+	text-align: center;
+}
+
+
+#footer-middle {
+	background-color: #db8c0e;
+	bottom: 100px;
+	overflow:auto;
+	padding: 30px 0;
+	max-height: 21%;
+	clear: both;
+}
+
+.footer-middle-left {
+	width: 33%;
+	display: inline;
+	float: left;
+	text-align: center;
+}
+
+.footer-middle-center{
+	width: 33%;
+	display: inline;
+	float: left;
+	text-align: center;
+
+}
+
+.footer-middle-right {
+	width: 33%;
+	display: inline;
+	float: left;
+	text-align: center;
+}
+
+.social li {
+	list-style: none;
+	display: inline;
+}
+
+
+#footer-bottom {
+	background-color: #d17e07;
+	height: 100px;
+	clear: both;
+}
+
+/********* MEDIA QUERIES ********/
+
+@media screen and (max-width: 400px) {
+
+.gallery {
+	padding-right: 20px;;
+	max-width: 1280px; 
+	min-width: 320px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.gallery div {
+	margin: 10px;
+	width: 100%;
+	height: 120px;
+}
+	#footer-top div{
+		width: 100%;
+		text-align: center;
+	}
+	#footer-middle li{
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+
+    #footer-bottom {
+    	display: none;
+    }
+}
