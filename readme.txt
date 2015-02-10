@@ -15,4 +15,4 @@ I downloaded the original stylesheet, but there are a lot of psuedo-selectors in
 
 	- the background #banner is part of a moving image and I was only able to save a 	captured version of it. what you're seeing when you compare it to the P'unk 		website may or may not be different. 
 
-	- the 3 image gallery: for whatever reason, I could NOT get the font color to change to a color other than white. I am unsure why. I spent a very long time on stackoverflow to no avail.
+	- the 3 image gallery: for whatever reason, I could NOT get the font color to change to a color other than white. I am unsure why. I spent a very long time on stackoverflow to no avail.  
