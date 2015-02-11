@@ -1,365 +1,350 @@
 /********* BASIC STYLES ********/
 html {
-	font-size: 62.5%;
-}
-body {
-	font-size: 1.5em;
-	line-height: 1.6;
+	font-size:62.5%
 }
 
-body a{
-	font-size: 1.4rem;
+body {
+	font-size:1.5em;
+	line-height:1.6
+}
+
+body a {
+	font-size:1.4rem
 }
 
 a li {
-	list-style: none;
+	list-style:none
 }
 
 h1 {
-	font-size: 6.0rem;
-	line-height: 1.2;
-	font-family: 'Marvel', sans-serif;
-	color: white;
+	font-size:6rem;
+	line-height:1.2;
+	font-family:'Marvel',sans-serif;
+	color:#fff
 }
+
 h2 {
-	font-size: 3.0rem;
+	font-size:3rem
 }
 
 h3 {
-	font-size: 2.0rem;
-	font-family: 'montserrat', sans-serif;
-	color: white;
+	font-size:2rem;
+	font-family:'montserrat',sans-serif;
+	color:#fff
 }
 
 h4 {
-	font-size: 1.6rem;
-	font-family: 'montserrat', sans-serif;
-	color: white;
+	font-size:1.6rem;
+	font-family:'montserrat',sans-serif;
+	color:#fff
 }
 
 p {
-	font-family: 'montserrat', sans-serif;
-	font-size: 1.4rem;
-	color: white;
-	margin-top: 0;
-
+	font-family:'montserrat',sans-serif;
+	font-size:1.4rem;
+	color:#fff;
+	margin-top:0
 }
 
 a {
-	font-family: 'montserrat', sans-serif;
-	text-decoration: none;
-	color: white;
+	font-family:'montserrat',sans-serif;
+	text-decoration:none;
+	color:#fff
 }
 
 #wrapper {
-	margin: 0 auto;
-	width: 100%;
+	margin:0 auto;
+	width:100%
 }
 
 /********* HEADER ********/
-
 #header {
-	background: linear-gradient(
-      rgba(0, 0, 0, 0.35), 
-      rgba(0, 0, 0, 0.35)
-    ), url('img/image-home1.jpg');
-
+	background:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(img/image-home1.jpg)
 }
 
 #circle {
-	float: left;
+	float:left
 }
 
 .nav-button {
-	float: left;
-	color: white;
-	background-color: none;
-	display: inline-block;
-	padding: 0 20px 0 10px;
-	margin: 0 7px 0 0;
-	width: 11%;
+	float:left;
+	color:#fff;
+	background-color:none;
+	display:inline-block;
+	padding:0 20px 0 10px;
+	margin:0 7px 0 0;
+	width:11%
 }
 
 .nav-button:hover {
-	background: rgba(255, 255, 255, 0.5);
-	color: #666;
+	background:rgba(255,255,255,0.5);
+	color:#666
 }
+
 .nav-button:hover p {
-	color: #666;
+	color:#666
 }
 
 /********* BANNER ********/
-
 #banner {
-	clear: both;
-	text-align: center;
-	margin: 40px 40px 80px 40px;
-	padding: 30px 0;
-	position: center;
-
+	clear:both;
+	text-align:center;
+	margin:40px 40px 80px;
+	padding:30px 0;
+	position:center
 }
 
 /********* CONNECT *******/
 #connect {
-	border-bottom: 5px;
-	padding: 10px;
+	border-bottom:5px;
+	padding:10px
 }
 
-#connect p,
-.form p {
-	color: black;
-	font-family: 'Marvel', sans-serif;
-	font-size: 1.2em;
-	font-weight: 400;
+#connect p,.form p {
+	color:#000;
+	font-family:'Marvel',sans-serif;
+	font-size:1.2em;
+	font-weight:400
 }
 
 .form {
-	padding: 20px;
+	padding:20px
 }
 
 .form h3 {
-	color: black;
-	font-size: 1.2em;
+	color:#000;
+	font-size:1.2em
 }
 
 .form h4 {
-	color: black;
+	color:#000
 }
 
-#connect a,
-.form a {
-	color: #e59c19;
-	text-decoration: none;
-	font-size: 1.2em;
+#connect a,.form a {
+	color:#e59c19;
+	text-decoration:none;
+	font-size:1.2em
 }
 
 .form {
-	text-align: left;
+	text-align:left
 }
 
 .left {
-	float: left;
-	margin-left: 25px;
-	padding: 20px;
+	float:left;
+	margin-left:25px;
+	padding:20px
 }
 
 .right {
-	float: right;
-	padding: 20px;
-	margin-right: 25px;
+	float:right;
+	padding:20px;
+	margin-right:25px
 }
 
-
 /********* GALLERY ********/
-
 .gallery {
-	padding-right: 20px;
-	width: 100%; 
-	margin: 0 auto;
-	clear: both;
-	position: relative;
+	padding-right:20px;
+	width:100%;
+	margin:0 auto;
+	clear:both;
+	position:relative
 }
 
 .gallery div {
-	color: #666;
-	height: 140px;
-	width: 30.8%;
+	color:#666;
+	height:140px;
+	width:30.8%
 }
 
 .box {
-	float: left;
-	margin-right: 3.8%;
+	float:left;
+	margin-right:3.8%
 }
 
 .last {
-	float: left;
-	margin-right: 0;
+	float:left;
+	margin-right:0
 }
 
 #col1 {
-	background: #e8eded url(img/apostrophe.png) top left no-repeat;
+	background:#e8eded url(img/apostrophe.png) top left no-repeat
 }
 
- #col2 {
-	background: #e8eded url(img/junto.jpg) top left no-repeat;
+#col2 {
+	background:#e8eded url(img/junto.jpg) top left no-repeat
 }
 
 #col3 {
-	background: #e8eded url(img/window.jpg) top left no-repeat;
+	background:#e8eded url(img/window.jpg) top left no-repeat
 }
 
-#col1 > p, #col1 > h3, #col1 > h4 {
-	color: #666;
-	text-align: right;
-	padding: 3px;
-	line-height: 1.2rem;
+#col1 > p,#col1 > h3,#col1 > h4 {
+	color:#666;
+	text-align:right;
+	padding:3px;
+	line-height:1.2rem
+}
 
+#col2 > p,#col2 > h3 {
+	color:#666;
+	text-align:right;
+	padding-right:3px;
+	line-height:1.2rem
+}
 
-} 
-#col2 > p, #col2 > h3 {
-	color: #666;
-	text-align: right;
-	padding-right: 3px;
-	line-height: 1.2rem;
-} 
-#col3 > p, #col3 > h3 {
-	color: #666;
-	text-align: right;
-	padding-right: 3px;
-	line-height: 1.2rem;
-} 
+#col3 > p,#col3 > h3 {
+	color:#666;
+	text-align:right;
+	padding-right:3px;
+	line-height:1.2rem
+}
 
 /********* FOOTER ********/
-
 #footer-top {
-	background: url(img/punk-map.jpg)  #e59c19;
-	width: 100%;
+	background:url(img/punk-map.jpg) #e59c19;
+	width:100%;
 	overflow:auto;
-	max-height: 21% ;
-	clear: both;
+	max-height:21%;
+	clear:both
 }
 
 .footer-top-left {
-	width: 29%;
-	margin: 0 1.5%;
-	float: left;
-	padding: 55px 0 0 0;
-	text-align: center;
+	width:29%;
+	margin:0 1.5%;
+	float:left;
+	padding:55px 0 0;
+	text-align:center
 }
 
-.footer-top-left li{
-	list-style: none;
+.footer-top-left li {
+	list-style:none
 }
 
 .footer-top-center {
-	width: 29%;
-	margin: 0 1.5%;
-	float: left;
-	padding: 30px 0;
-	text-align: center;
+	width:29%;
+	margin:0 1.5%;
+	float:left;
+	padding:30px 0;
+	text-align:center
 }
 
 .footer-top-right {
-	width: 29%;
-	margin: 0 1.5%;
-	float: left;
-	padding: 30px 0;
-	text-align: center;
+	width:29%;
+	margin:0 1.5%;
+	float:left;
+	padding:30px 0;
+	text-align:center
 }
 
-
 #footer-middle {
-	background-color: #db8c0e;
-	bottom: 100px;
+	background-color:#db8c0e;
+	bottom:100px;
 	overflow:auto;
-	width: 100%;
-	padding: 55px 0 0 0;
-	max-height: 21%;
-	clear: both;
+	width:100%;
+	padding:55px 0 0;
+	max-height:21%;
+	clear:both
 }
 
 .footer-middle-left {
-	width: 33%;
-	display: inline;
-	float: left;
-	text-align: center;
+	width:33%;
+	display:inline;
+	float:left;
+	text-align:center
 }
 
-.footer-middle-center{
-	width: 33%;
-	display: inline;
-	float: left;
-	text-align: center;
-
+.footer-middle-center {
+	width:33%;
+	display:inline;
+	float:left;
+	text-align:center
 }
 
 .footer-middle-right {
-	width: 33%;
-	display: inline;
-	float: left;
-	text-align: center;
+	width:33%;
+	display:inline;
+	float:left;
+	text-align:center
 }
 
 .social li {
-	list-style: none;
-	display: inline;
+	list-style:none;
+	display:inline
 }
 
-
 #footer-bottom {
-	background-color: #d17e07;
-	overflow: auto;
-	width: 100%;
-	height: 100px;
-	clear: both;
+	background-color:#d17e07;
+	overflow:auto;
+	width:100%;
+	height:100px;
+	clear:both
 }
 
 /********* MEDIA QUERIES ********/
-
 @media screen and (max-width: 668px) {
-
-
 #circle {
-	display: none;
+	display:none
 }
 
 #nav {
-	margin: 0 0 0 0;
-	text-align: center;
+	margin:0;
+	text-align:center
 }
 
-
 .nav-button {
-	font-size: 2.5rem;
-	display: inline-block;
-	list-style: none;
-	color: white;
-	padding: 0px;
-	margin: 0 5px 5px 15px;
-	width: 12%;
-	text-align: center;
+	font-size:2.5rem;
+	display:inline-block;
+	list-style:none;
+	color:#fff;
+	padding:0;
+	margin:0 5px 5px 15px;
+	width:12%;
+	text-align:center
 }
 
 .nav-button p {
-	display: none;
+	display:none
 }
-#nav li:hover a{
-	background: rgba(255, 255, 255, 0);
-	color: #666;
+
+#nav li:hover a {
+	background:rgba(255,255,255,0);
+	color:#666
 }
 
 #nav li:hover {
-	background: rgba(255, 255, 255, 0.55);
-	color: #666;
+	background:rgba(255,255,255,0.55);
+	color:#666
 }
+
 .gallery {
-	padding-right: 20px;;
-	max-width: 1280px; 
-	min-width: 320px;
-	margin: 0 auto;
-	clear: both;
+	padding-right:20px;
+	max-width:1280px;
+	min-width:320px;
+	margin:0 auto;
+	clear:both
 }
 
 .gallery div {
-	margin: 10px;
-	width: 100%;
-	height: 120px;
+	margin:10px;
+	width:100%;
+	height:120px
 }
-
 }
 
 @media screen and (max-width: 400px) {
-
 #footer-top div {
-	width: 100%;
-	text-align: center;
+	width:100%;
+	text-align:center
 }
+
 #footer-middle li {
-	width: 100%;
-	text-align: center;
-	display: inline-block;
+	width:100%;
+	text-align:center;
+	display:inline-block
 }
-    #footer-bottom {
-    display: none;
-    }
+
+#footer-bottom {
+	display:none
+}
 }
