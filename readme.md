@@ -11,6 +11,8 @@ I downloaded the original stylesheet, but there are a lot of psuedo-selectors in
 
 	- #nav also looks poorly on mobile/resized browser size. original nav on p'unk 		website uses a javascript extension (Bootstrap, I think but not sure) so there was 	no good way for me to replicate this for mobile without a lot more code.
 
+	- the P'unk Ave logo uses JS for the transition. I tried to create a transition 	using CSS animation. 
+
 	- the background #banner is part of a moving image and I was only able to save a 	captured version of it. what you're seeing when you compare it to the P'unk 		website may or may not be different. 
 
 	- the 3 image gallery: for whatever reason, I could NOT get the font color to change to a color other than white. I am unsure why. I spent a very long time on stackoverflow to no avail.  
