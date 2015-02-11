@@ -99,10 +99,60 @@ a {
 
 }
 
+/********* CONNECT *******/
+#connect {
+	border-bottom: 5px;
+	padding: 10px;
+}
+
+#connect p,
+.form p {
+	color: black;
+	font-family: 'Marvel', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.form {
+	padding: 20px;
+}
+
+.form h3 {
+	color: black;
+	font-size: 1.2em;
+}
+
+.form h4 {
+	color: black;
+}
+
+#connect a,
+.form a {
+	color: #e59c19;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.form {
+	text-align: left;
+}
+
+.left {
+	float: left;
+	margin-left: 25px;
+	padding: 20px;
+}
+
+.right {
+	float: right;
+	padding: 20px;
+	margin-right: 25px;
+}
+
+
 /********* GALLERY ********/
 
 .gallery {
-	color: #666;
 	padding-right: 20px;
 	width: 100%; 
 	margin: 0 auto;
@@ -112,7 +162,7 @@ a {
 
 .gallery div {
 	color: #666;
-	height: 120px;
+	height: 140px;
 	width: 30.8%;
 }
 
@@ -127,58 +177,37 @@ a {
 }
 
 #col1 {
-	color: #666;
 	background: #e8eded url(img/apostrophe.png) top left no-repeat;
 }
 
  #col2 {
- 	color: #666;
 	background: #e8eded url(img/junto.jpg) top left no-repeat;
 }
 
 #col3 {
-	color: #666;
 	background: #e8eded url(img/window.jpg) top left no-repeat;
 }
 
-/********* CONNECT *******/
-#connect {
-	border-bottom: 10px;
-}
-
-#connect h2 {
+#col1 > p, #col1 > h3, #col1 > h4 {
 	color: #666;
-	font-size: 1em;
-}
+	text-align: right;
+	padding: 3px;
+	line-height: 1.2rem;
 
-#connect h3{
+
+} 
+#col2 > p, #col2 > h3 {
 	color: #666;
-	font-size: 1.2em;
-	text-align: center;
-}
-
-#connect a {
-	color: #e59c19;
-	text-decoration: none;
-	font-size: 1.2em;
-}
-
-#connect p {
+	text-align: right;
+	padding-right: 3px;
+	line-height: 1.2rem;
+} 
+#col3 > p, #col3 > h3 {
 	color: #666;
-	font-family: 'Marvel', sans-serif;
-}
-
-.left {
-	float: left;
-	margin-left: 25px;
-	padding: 20px;
-}
-
-.right {
-	float: right;
-	padding: 20px;
-	margin-right: 25px;
-}
+	text-align: right;
+	padding-right: 3px;
+	line-height: 1.2rem;
+} 
 
 /********* FOOTER ********/
 
