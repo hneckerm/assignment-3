@@ -1,4 +1,4 @@
->Here I am, remaking the p'unk ave [website](http://www.punkave.com) from scratch as best I can. 
+>Here I am, remaking [the p'unk ave website](http://www.punkave.com) from scratch as best I can. 
 >
 I downloaded the original stylesheet, but there are a lot of psuedo-selectors involved, as well as javascript frameworks.
 >
