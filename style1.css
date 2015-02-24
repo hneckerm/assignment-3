@@ -154,56 +154,33 @@ a {
 
 /********* GALLERY ********/
 .gallery {
-	padding-right:20px;
-	width:100%;
-	margin:0 auto;
-	clear:both;
-	position:relative;
+	padding: 0;
 }
-
-.gallery div {
+#col {
+	height: 150px;
+	width: 30.8%;
+	display: inline-block;
 	background-color: #e8eded;
-	color:#666;
-	height: auto;
-	width:30.8%;
-}
-
-.gallery > h3,
-.gallery > h4,
-.gallery > p {
-	vertical-align: middle;
 }
 
 .box {
-	float:left;
-	margin-right:3.8%;
+	float: left;
+	max-width: 50%
 }
 
-.last {
-	float:left;
-	margin-right:0;
+.text_box > h3, .text_box > p {
+	padding-left: 5px;
+	color: #666;
 }
 
-#col1 > p,#col1 > h3,#col1 > h4 {
+
+/*
+.text-box > p, .text-box > h3, .text-box > h4 {
 	color:#666;
 	text-align:right;
 	padding:3px;
 	line-height:1.2rem;
-}
-
-#col2 > p,#col2 > h3 {
-	color:#666;
-	text-align:right;
-	padding-right:3px;
-	line-height:1.2rem;
-}
-
-#col3 > p,#col3 > h3 {
-	color:#666;
-	text-align:right;
-	padding-right:3px;
-	line-height:1.2rem;
-}
+} */
 
 /********* FOOTER ********/
 #footer-top {
@@ -335,6 +312,7 @@ a {
 	margin:0 auto;
 	clear:both;
 }
+
 
 .gallery div {
 	margin:10px;
